@@ -1,3 +1,2 @@
 dicord.py
 python-decouple
-schedule
