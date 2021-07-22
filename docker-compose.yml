@@ -2,6 +2,8 @@ version: "2.0"
 services:
     web:
         build: .
+        environment:
+            - TZ=Asia/Kolkata
         ports: 
         - "8001:8001"
         volumes:
